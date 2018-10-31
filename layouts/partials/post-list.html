@@ -10,7 +10,7 @@
       {{ with $page.Resources.GetMatch .Params.image }}
          <div class="post-card-image" style="background-image: url({{.RelPermalink}})"></div>
       {{end}}
-       <!-- <div class="post-card-image" style="background-image: url({{.Params.image | absURL}})"></div> -->
+
     </a>
     {{else}}
     <a class="post-card-image-link" href="{{ .Permalink }}">
